@@ -59,44 +59,14 @@
       "wingetId": "Microsoft.VisualStudio.2022.Community",
       "supportsPackages": true,
       "packageManifest": [
-        {
-          "id": "managed-desktop",
-          "name": ".NET desktop",
-          "description": ".NET desktop development",
-          "installArg": "--add Microsoft.VisualStudio.Workload.ManagedDesktop",
-          "defaultSelected": true
-        },
-        {
-          "id": "native-desktop",
-          "name": "Desktop C++",
-          "description": "Native desktop C++ development",
-          "installArg": "--add Microsoft.VisualStudio.Workload.NativeDesktop",
-          "defaultSelected": false
-        },
-        {
-          "id": "unity",
-          "name": "Unity",
-          "description": "Game development with Unity",
-          "installArg": "--add Microsoft.VisualStudio.Workload.ManagedGame",
-          "defaultSelected": false
-        },
-        {
-          "id": "python",
-          "name": "Python",
-          "description": "Python development",
-          "installArg": "--add Microsoft.VisualStudio.Workload.Python",
-          "defaultSelected": false
-        },
-        {
-          "id": "web",
-          "name": "Web",
-          "description": "ASP.NET and web development",
-          "installArg": "--add Microsoft.VisualStudio.Workload.NetWeb",
-          "defaultSelected": false
-        }
+        { "id": "managed-desktop", "name": ".NET desktop", "description": ".NET desktop development", "installArg": "--add Microsoft.VisualStudio.Workload.ManagedDesktop", "defaultSelected": true },
+        { "id": "native-desktop", "name": "Desktop C++", "description": "Native desktop C++ development", "installArg": "--add Microsoft.VisualStudio.Workload.NativeDesktop", "defaultSelected": false },
+        { "id": "unity", "name": "Unity", "description": "Game development with Unity", "installArg": "--add Microsoft.VisualStudio.Workload.ManagedGame", "defaultSelected": false },
+        { "id": "python", "name": "Python", "description": "Python development", "installArg": "--add Microsoft.VisualStudio.Workload.Python", "defaultSelected": false },
+        { "id": "web", "name": "Web", "description": "ASP.NET and web development", "installArg": "--add Microsoft.VisualStudio.Workload.NetWeb", "defaultSelected": false }
       ],
       "enabled": true,
-      "installNotes": "Base IDE install. Teachers can add workloads later.",
+      "installNotes": "Use workloads if needed.",
       "trustedDomains": "aka.ms"
     },
     {
@@ -105,7 +75,7 @@
       "description": "Free 3D suite.",
       "category": "3D",
       "supportedOs": ["Windows10", "Windows11", "MacOs"],
-      "installerType": "Msi",
+      "installerType": "Exe",
       "sourceType": "Official",
       "sourceUrl": "https://download.blender.org/release/Blender4.2/blender-4.2.1-windows-x64.msi",
       "offlineFileName": "blender.msi",
@@ -161,6 +131,48 @@
       "enabled": true,
       "installNotes": "Often requires NetAcad sign-in.",
       "trustedDomains": "www.netacad.com"
+    },
+    {
+      "id": "xampp",
+      "name": "XAMPP",
+      "description": "Download XAMPP for Windows, Linux, and OS X. Older versions of Solaris are also available.",
+      "category": "",
+      "supportedOs": ["Windows11"],
+      "installerType": "Dmg",
+      "sourceType": "Official",
+      "sourceUrl": "https://netix.dl.sourceforge.net/project/xampp/XAMPP%20Mac%20OS%20X/8.0.28/xampp-osx-8.0.28-0-installer.dmg?viasf=1",
+      "offlineFileName": "xampp-osx-8.0.28-0-installer.dmg",
+      "iconPath": "",
+      "silentArgs": "",
+      "checksum": "",
+      "version": "",
+      "wingetId": "",
+      "supportsPackages": false,
+      "packageManifest": [],
+      "enabled": true,
+      "installNotes": "",
+      "trustedDomains": "netix.dl.sourceforge.net"
+    },
+    {
+      "id": "github-desktop",
+      "name": "GitHub Desktop",
+      "description": "Simple collaboration from your desktop",
+      "category": "",
+      "supportedOs": ["Windows11"],
+      "installerType": "Zip",
+      "sourceType": "Official",
+      "sourceUrl": "https://desktop.githubusercontent.com/releases/3.5.6-a180a018/GitHubDesktop-x64.zip",
+      "offlineFileName": "GitHubDesktop-x64.zip",
+      "iconPath": "",
+      "silentArgs": "",
+      "checksum": "",
+      "version": "",
+      "wingetId": "",
+      "supportsPackages": false,
+      "packageManifest": [],
+      "enabled": true,
+      "installNotes": "",
+      "trustedDomains": "desktop.githubusercontent.com"
     }
   ]
 }
