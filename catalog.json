@@ -214,6 +214,7 @@
       "description": "Simple collaboration from your desktop",
       "category": "",
       "supportedOs": [
+        "Windows10",
         "Windows11"
       ],
       "installerType": "Zip",
