@@ -191,7 +191,6 @@
       "description": "Download XAMPP for Windows, Linux, and OS X. Older versions of Solaris are also available.",
       "category": "",
       "supportedOs": [
-        "Windows10",
         "Windows11"
       ],
       "installerType": "Dmg",
