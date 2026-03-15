@@ -237,6 +237,7 @@
       "description": "Download Orca Slicer\u0027s both official stable releases and nightly builds, along with clear guidance on which version is best for your needs.",
       "category": "",
       "supportedOs": [
+        "Windows10",
         "Windows11"
       ],
       "installerType": "Exe",
